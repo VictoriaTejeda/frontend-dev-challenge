@@ -24,6 +24,12 @@
 }
 
 .logo{
-  width: 35vh;
+  width: 30vh;
   height: 10vh;
+}
+
+@media (min-width: 1000px){
+  .logo{
+    width: 45vh;
+  }
 }

@@ -77,15 +77,23 @@
 }
 
 @media (min-width: 1000px) {
+  .hero{
+    height: 90vh;
+  }
   .info{
     width: 40%;
+    margin-left: 4vh;
   }
   .info h1{
-    font-size:5vh;
-    
+    font-size:6vh;
+  }
+  .info h4{
+    margin-top: 25vh;
+    font-size: 4vh;
   }
 
   .info p{
+    margin-top: 5vh;
     display: block;
     font-size: 3vh;
   }

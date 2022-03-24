@@ -8,8 +8,9 @@
     flex-direction:column;
     justify-content: center;
     align-items: center;
-    width: 375px;
-    height:310px;
+    font-size: 2.3vh;
+    width: 100%;
+    height: auto;
     background-color:var(--grey-neutral-100);
 }
 
@@ -17,5 +18,27 @@
     align-self: center;
     margin-bottom: 2vh;
     width: 340px;
-    height: 250px;
+   
+}
+
+.img-publicity2{
+    align-self: center;
+    margin-bottom: 2vh;
+    width: 45vh;
+   height: 66vh;
+   display: none;
+}
+
+@media (orientation: landscape){
+    .publicity{
+        width: 50vh;
+        margin-left: 6vh;
+    }
+    .img-publicity{
+        width: 45vh;
+        height: 160px; 
+    }
+    .img-publicity2{
+        display: block;
+    }
 }

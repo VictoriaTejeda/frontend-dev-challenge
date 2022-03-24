@@ -55,6 +55,17 @@
     grid-template-columns: repeat(4, 1fr);
   }
   .card{
-      width: 40vh;
+      width: 40vh !important;
+  }
+}
+
+@media only screen and (orientation: landscape) {
+  .row { 
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .card{
+      width: 30vh;
+      font-size: 2vh;
   }
 }
