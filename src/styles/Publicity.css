@@ -1,0 +1,21 @@
+:root {
+    --grey-neutral-100: #e4e4e4;
+    --grey-neutral-800:#414141;
+    --pink-500: #f778b9;
+  }
+.publicity{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    width: 375px;
+    height:310px;
+    background-color:var(--grey-neutral-100);
+}
+
+.img-publicity{
+    align-self: center;
+    margin-bottom: 2vh;
+    width: 340px;
+    height: 250px;
+}

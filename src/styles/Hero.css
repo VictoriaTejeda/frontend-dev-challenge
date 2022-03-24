@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+:root {
+  --grey-neutral-100: #e4e4e4;
+  --pink-500: #f778b9;
+}
+
+.hero {
+  top: 60px;
+  width: 100%;
+  height: 70vh;
+  animation: hero 12s infinite linear alternate;
+  background-size: 100% 100%;
+  position: relative;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+@keyframes hero {
+  0%,
+  20% {
+    background-image: url("../assets/image/photo01.png");
+  }
+  25%,
+  45% {
+    background-image: url("../assets/image/photo03.png");
+  }
+  50%,
+  70% {
+    background-image: url("../assets/image/photo04.png");
+  }
+  75%,
+  100% {
+    background-image: url("../assets/image/photo05.png");
+  }
+}
+
+.layer {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.info {
+  margin-top: 7vh;
+  margin-left: 2vh;
+  z-index: 1;
+  width: 55%;
+  text-align: left;
+  color: #fff;
+}
+
+.info h1 {
+  font-family: Source Sans Pro;
+  font-size: 4vh;
+  font-style: Bold;
+}
+
+.info h4 {
+  font-family: Source Sans Pro;
+  font-size: 2.5vh;
+  margin-top: 15vh;
+}
+.info span {
+  color: var(--pink-500);
+}
+
+.info p {
+  display: none;
+  margin-top: 8vh;
+  width: 100%;
+  font-family:'Open Sans', sans-serif;
+  font-size: 2vh;
+}
+
+@media (min-width: 1000px) {
+  .info{
+    width: 40%;
+  }
+  .info h1{
+    font-size:5vh;
+    
+  }
+
+  .info p{
+    display: block;
+    font-size: 3vh;
+  }
+}
